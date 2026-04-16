@@ -1,14 +1,14 @@
 # STT-for-AI-Assignment
 Hugging Face Space URL: https://huggingface.co/spaces/vipulSP21/urban-nest-rent-predictor
-STTAI2026-Assignment4
+STTAI2026-Assignment
 
 Urban Nest Rent Predictor implements the UrbanNest Analytics rent prediction workflow
-Assignment 4: PropTech Startup Strategy - Rent Prediction Pipeline
+Assignment: PropTech Startup Strategy - Rent Prediction Pipeline
 
-This repository implements the UrbanNest Analytics rent prediction workflow required in Assignment 4. It compares Grid Search, Random Search, and Bayesian Optimization for a RandomForestRegressor, tracks experiments with trackio, serves predictions through Streamlit, and includes a Docker setup for local runs and Hugging Face Spaces deployment.
+This repository implements the UrbanNest Analytics rent prediction workflow required in Assignment. It compares Grid Search, Random Search, and Bayesian Optimization for a RandomForestRegressor, tracks experiments with trackio, serves predictions through Streamlit, and includes a Docker setup for local runs and Hugging Face Spaces deployment.
 Repository Structure
 
-Assignment_4/
+Assignment/
 |-- README.md
 |-- requirements.txt
 |-- train.ipynb
