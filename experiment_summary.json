@@ -1,0 +1,39 @@
+{
+  "trackio_project": "urban-nest-rent-prediction",
+  "overall_best_method": "Bayesian Optimization",
+  "best_hyperparameters": {
+    "n_estimators": 184,
+    "max_depth": 26,
+    "min_samples_split": 2
+  },
+  "test_mae": 12418.965806412485,
+  "methods": {
+    "Grid Search": {
+      "best_params": {
+        "max_depth": 25,
+        "min_samples_split": 2,
+        "n_estimators": 200
+      },
+      "best_cv_mae": 13270.75815248975,
+      "elapsed_seconds": 334.5114001000002
+    },
+    "Random Search": {
+      "best_params": {
+        "n_estimators": 142,
+        "min_samples_split": 2,
+        "max_depth": 24
+      },
+      "best_cv_mae": 13299.75742769303,
+      "elapsed_seconds": 327.4679153999996
+    },
+    "Bayesian Optimization": {
+      "best_params": {
+        "n_estimators": 184,
+        "max_depth": 26,
+        "min_samples_split": 2
+      },
+      "best_cv_mae": 13268.449000916036,
+      "elapsed_seconds": 827.6694411999997
+    }
+  }
+}
