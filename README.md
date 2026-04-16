@@ -10,7 +10,7 @@ This repository implements the UrbanNest Analytics rent prediction workflow requ
 ## Repository Structure
 
 ```text
-Assignment_4/
+Mini_Poject/
 |-- README.md
 |-- requirements.txt
 |-- train.ipynb
@@ -50,7 +50,7 @@ streamlit run app.py
 trackio show --project urban-nest-rent-prediction
 ```
 
-For the Task 1 screenshot requirement, open the Trackio dashboard after the notebook run, make sure the compared runs for Grid Search, Random Search, and Bayesian Optimization are visible with their scores and hyperparameters, and save the screenshot as `screenshots/trackio_dashboard.png`.
+For Task 1, open the Trackio dashboard after the notebook run, ensure the compared runs for Grid Search, Random Search, and Bayesian Optimisation are visible with their scores and hyperparameters, and we included a screenshot of the dashboard as `screenshots/trackio_dashboard.png`.
 
 ## Docker Usage
 
@@ -61,12 +61,10 @@ docker run -p 8501:8501 urban-nest-rent-predictor
 
 Visit `http://localhost:8501` after the container starts.
 
-## Manual Submission Steps Still Needed
-
-- Deploy the project to a Hugging Face Docker Space and replace the placeholder URL at the top of this README.
-- Save the required screenshots inside `screenshots/`:
+- Deployed the project to a Hugging Face Docker Space and replaced the placeholder URL at the top of this README.
+- Saved the required screenshots inside `screenshots/`:
   - `trackio_dashboard.png`
   - `docker_build.png`
   - `docker_ps.png`
   - `streamlit_working.png`
-- Push the project to a private GitHub repository and add your TA as a collaborator.
+
