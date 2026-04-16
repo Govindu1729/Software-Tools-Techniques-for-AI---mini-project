@@ -1,11 +1,11 @@
 # Hugging Face Space URL: https://huggingface.co/spaces/vipulSP21/urban-nest-rent-predictor
 
-# STTAI2026-Assignment4
+# STTAI2026-miniproject
 Urban Nest Rent Predictor implements the UrbanNest Analytics rent prediction workflow
 
-# Assignment 4: PropTech Startup Strategy - Rent Prediction Pipeline
+# PropTech Startup Strategy - Rent Prediction Pipeline
 
-This repository implements the UrbanNest Analytics rent prediction workflow required in Assignment 4. It compares Grid Search, Random Search, and Bayesian Optimization for a `RandomForestRegressor`, tracks experiments with `trackio`, serves predictions through Streamlit, and includes a Docker setup for local runs and Hugging Face Spaces deployment.
+This repository implements the UrbanNest Analytics rent prediction workflow required for the assignment. It compares Grid Search, Random Search, and Bayesian Optimisation for a `RandomForestRegressor`, tracks experiments with `trackio`, serves predictions through Streamlit, and includes a Docker setup for local runs and Hugging Face Spaces deployment.
 
 ## Repository Structure
 
@@ -24,7 +24,7 @@ Assignment_4/
 
 ## Implemented Deliverables
 
-1. `train.ipynb` performs label encoding, 5-fold cross-validation, hyperparameter search, `trackio` logging, plot generation, final retraining, and artifact export.
+1. `train.ipynb` performs label encoding, 5-fold cross-validation, hyperparameter search, `trackio` logging, plot generation, final retraining, and artefact export.
 2. `app.py` loads the saved model plus encoders with `pickle.load` and renders widget inputs for every feature.
 3. `Dockerfile` packages the Streamlit app on port `8501`.
 
@@ -55,7 +55,7 @@ For the Task 1 screenshot requirement, open the Trackio dashboard after the note
 ## Docker Usage
 
 ```bash
-docker build -t urban-nest-rent-predictor .
+docker build -t urban-nest-rent-predictor
 docker run -p 8501:8501 urban-nest-rent-predictor
 ```
 
@@ -69,4 +69,4 @@ Visit `http://localhost:8501` after the container starts.
   - `docker_build.png`
   - `docker_ps.png`
   - `streamlit_working.png`
-- Push the project to a private GitHub repository and add your TA as collaborator.
+- Push the project to a private GitHub repository and add your TA as a collaborator.
